@@ -4,6 +4,13 @@
     margin: 0px;
 }
 
+@font-face {
+    font-family: 'Silver';
+    src: url('../fonts/Silver.woff') format("woff"),
+        url('../fonts/Silver.ttf') format("truetype"),
+        url('../fonts/Silver.eot') format("embedded-opentype");
+}
+
 html,
 body {
     font-family: "Roboto", sans-serif;
@@ -12,6 +19,20 @@ body {
 .container {
     background-color: #FFF9E4;
 
+}
+
+.title {
+    font-family: "Silver";
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 /* 扛棒 */
@@ -65,32 +86,24 @@ body {
 
 .cover-des {
     position: absolute;
-
 }
 
-.index-title {
-
-    font-size: 64px;
-    font-weight: bold;
-    margin-top: 80px;
-    text-align: center;
-}
-
-.team-title {
-    font-size: 64px;
-    margin-top: 80px;
-    text-align: center;
-
+.cover-enterGameDoor {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
 }
 
 .team-cards {
     width: 100%;
     display: flex;
+    justify-content: space-between;
     padding: 0px 70px;
+    margin-top: 120px;
+    margin-bottom: 172px;
 }
 
 .team-cards-background {
-    margin: 120px 10px 172px;
     width: 265px;
     height: 420px;
     background: #A2DCF5;
@@ -112,23 +125,63 @@ body {
 }
 
 .team-cards-name {
-    margin-top: 14px;
+    margin-top: 15px;
 }
 
 .team-cards-des {
-    margin-top: 14px;
+    margin-top: 5px;
 }
 
 .team-cards-media {
     display: flex;
-    width: 30px;
+    justify-content: right;
+    margin-top: 15px;
+    margin-right: -10px;
 }
 
-.text {
-    font-size: 24px;
-    margin-top: 20px;
-    text-align: center;
+.team-cards-media-img {
+    width: 30px;
+    margin: 0px 10px;
 }
+
+.about-img {
+    display: block;
+    width: 100%;
+
+}
+
+.about-top {
+    padding: 0px 160px;
+    display:flex;
+    justify-content: right;
+}
+.about-bottom {
+    padding: 0px 160px;
+    display:flex;
+    justify-content: left;
+}
+
+.about-des {
+    position: absolute;
+    width: 448px;
+    height: 368px;
+    margin-top: 100px;
+    padding: 30px 40px;
+    background: #FFF9E4;
+    border-radius: 20px;
+}
+
+.about-des-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-des-text {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 150%;
+}
+
 
 .footer {
     display: flex;
