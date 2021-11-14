@@ -117,15 +117,16 @@ body {
 
 .team-cards-photoFrame {
     width: 215px;
-    overflow: hidden;
     height: 250px;
-
+    overflow: hidden;
     border-radius: 20px;
 }
 
 .team-cards-photo {
     height: 250px;
-    margin-left: -59px;
+    display: flex;
+    justify-content: center;
+    margin-left: -18px;
 }
 
 .team-cards-name {
