@@ -12,102 +12,111 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
 </head>
 
 <body>
     <script src="./js/jQuery.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <a href="./index.html"><img class="header-logo navbar-brand" src=" ./images/logo.png" alt="logo"> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img class="navbar-toggler-icon" src="./images/bar.png">
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="./team.html">團隊</a></li>
-                <li class="nav-item"><a class="nav-link" href="./about.html">關於</a></li>
-                <li class="nav-item"><a class="nav-enterGame nav-link" target="_blank"
-                        href="https://annie0329.github.io/">進入遊戲</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="background container">
-        <h1 class="title">團隊</h1>
-        <p class="text">北科大互動設計系大四畢業製作</p>
-        <div class="row">
-            <!-- 我 -->
-            <!-- 我真的有github lol -->
-            <div class="col-lg-3 col-md-6">
-                <div class="team-cards">
-                    <img src="./images/photo-1.jpg" alt="annie">
-                    <h2>謝易安</h2>
-                    <p>程式開發、遊戲構想</p>
-                    <div class="team-cards-media">
-                        <a class="team-cards-media-img" href="#"><img src="./images/twitter-black.svg" alt=""></a>
-                        <a class="team-cards-media-img" target="_blank" href="https://github.com/Annie0329"><img
-                                src="./images/github-black.svg" alt=""></a>
-                        <a class="team-cards-media-img" href="#"><img src="./images/behance-black.svg" alt=""></a>
-                    </div>
-                </div>
-            </div>
-            <!-- 謹育 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="team-cards">
-                    <img src="./images/photo-2.jpg" alt="annie">
-                    <h2>許謹育</h2>
-                    <p>文案、遊戲構想</p>
-                    <div class="team-cards-media">
-                        <a class="team-cards-media-img" href="#"><img src="./images/twitter-black.svg" alt=""></a>
-                        <a class="team-cards-media-img" target="_blank" href="#"><img src="./images/github-black.svg"
-                                alt=""></a>
-                        <a class="team-cards-media-img" href="#"><img src="./images/behance-black.svg" alt=""></a>
-                    </div>
-                </div>
-            </div>
+    <script src="./js/script.js"></script>
 
-            <!-- 玟慈 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="team-cards">
-                    <img src="./images/photo-3.jpg" alt="annie">
-                    <h2>陳玟慈</h2>
-                    <p>角色設計、劇情構想</p>
-                    <div class="team-cards-media">
-                        <a class="team-cards-media-img" href="#"><img src="./images/twitter-black.svg" alt=""></a>
-                        <a class="team-cards-media-img" target="_blank" href="#"><img src="./images/github-black.svg"
-                                alt=""></a>
-                        <a class="team-cards-media-img" href="#"><img src="./images/behance-black.svg" alt=""></a>
+    <div class="background">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a href="./index.html"><img class="navbar-brand" src=" ./images/logo.png" alt="logo"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img class="navbar-toggler-icon" src="./images/bar.png">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="./team.html">團隊</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./about.html">關於</a></li>
+                    <li class="nav-item"><a class="nav-enterGame nav-link" target="_blank"
+                            href="https://annie0329.github.io/">進入遊戲</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container wrapper">
+            <h1 class="title">團隊</h1>
+            <p class="text">北科大互動設計系大四畢業製作</p>
+            <div class="row">
+                <!-- 我 -->
+                <!-- 我真的有github lol -->
+                <div class="wow fadeIn col-lg-3 col-md-6">
+                    <div class="team-cards">
+                        <img src="./images/photo-1.jpg" alt="annie">
+                        <h2>謝易安</h2>
+                        <p>程式開發、遊戲構想</p>
+                        <div class="team-cards-media">
+                            <a class="team-cards-media-img" href="#"><img src="./images/twitter-black.svg" alt=""></a>
+                            <a class="team-cards-media-img" target="_blank" href="https://github.com/Annie0329"><img
+                                    src="./images/github-black.svg" alt=""></a>
+                            <a class="team-cards-media-img" href="#"><img src="./images/behance-black.svg" alt=""></a>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <!-- 謹育 -->
+                <div class="wow fadeIn col-lg-3 col-md-6">
+                    <div class="team-cards">
+                        <img src="./images/photo-2.jpg" alt="annie">
+                        <h2>許謹育</h2>
+                        <p>文案、遊戲構想</p>
+                        <div class="team-cards-media">
+                            <a class="team-cards-media-img" href="#"><img src="./images/twitter-black.svg" alt=""></a>
+                            <a class="team-cards-media-img" target="_blank" href="#"><img
+                                    src="./images/github-black.svg" alt=""></a>
+                            <a class="team-cards-media-img" href="#"><img src="./images/behance-black.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
 
-            <!-- 品君 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="team-cards">
-                    <img src="./images/photo-4.jpg" alt="annie">
-                    <h2>劉品君</h2>
-                    <p>地圖設計、劇情構想</p>
-                    <div class="team-cards-media">
-                        <a class="team-cards-media-img" href="#"><img src="./images/twitter-black.svg" alt=""></a>
-                        <a class="team-cards-media-img" target="_blank" href="#"><img src="./images/github-black.svg"
-                                alt=""></a>
-                        <a class="team-cards-media-img" href="https://www.behance.net/penguin0987533/appreciated"><img
-                                src="./images/behance-black.svg" alt=""></a>
+                <!-- 玟慈 -->
+                <div class="wow fadeIn col-lg-3 col-md-6">
+                    <div class="team-cards">
+                        <img src="./images/photo-3.jpg" alt="annie">
+                        <h2>陳玟慈</h2>
+                        <p>角色設計、劇情構想</p>
+                        <div class="team-cards-media">
+                            <a class="team-cards-media-img" href="#"><img src="./images/twitter-black.svg" alt=""></a>
+                            <a class="team-cards-media-img" target="_blank" href="#"><img
+                                    src="./images/github-black.svg" alt=""></a>
+                            <a class="team-cards-media-img" href="#"><img src="./images/behance-black.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 品君 -->
+                <div class="wow fadeIn col-lg-3 col-md-6">
+                    <div class="team-cards">
+                        <img src="./images/photo-4.jpg" alt="annie">
+                        <h2>劉品君</h2>
+                        <p>地圖設計、劇情構想</p>
+                        <div class="team-cards-media">
+                            <a class="team-cards-media-img" href="#"><img src="./images/twitter-black.svg" alt=""></a>
+                            <a class="team-cards-media-img" target="_blank" href="#"><img
+                                    src="./images/github-black.svg" alt=""></a>
+                            <a class="team-cards-media-img"
+                                href="https://www.behance.net/penguin0987533/appreciated"><img
+                                    src="./images/behance-black.svg" alt=""></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <footer class="footer">
+            <div class="footer-media">
+                <a class="footer-media-img" href="#"><img src="./images/github.svg" alt=""></a>
+                <a class="footer-media-img" href="#"><img src="./images/twitter.svg" alt=""></a>
+                <a class="footer-media-img" href="#"><img src="./images/behance.svg" alt=""></a>
+                <a class="footer-media-img" href="#"><img src="./images/medium.svg" alt=""></a>
+            </div>
+            <p class="footer-copyrights">&copy;2021. All right reserved</p>
+        </footer>
     </div>
-    <footer class="footer">
-        <div class="footer-media">
-            <a class="footer-media-img" href="#"><img src="./images/github.svg" alt=""></a>
-            <a class="footer-media-img" href="#"><img src="./images/twitter.svg" alt=""></a>
-            <a class="footer-media-img" href="#"><img src="./images/behance.svg" alt=""></a>
-            <a class="footer-media-img" href="#"><img src="./images/medium.svg" alt=""></a>
-        </div>
-        <p class="footer-copyrights">&copy;2021. All right reserved</p>
-    </footer>
 </body>
 
 </html>

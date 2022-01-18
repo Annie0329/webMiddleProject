@@ -17,14 +17,11 @@ body {
     background-color: #FFF9E4;
 }
 
-.container-fluid {
-    padding: 0px;
-    margin: 0px;
-    background-color: #FFF9E4;
-}
-
 .background {
     background-color: #FFF9E4;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
 }
 
 .title {
@@ -62,7 +59,6 @@ body {
 .nav-enterGame {
     width: 130px;
     height: 40px;
-    /* text-decoration: none; */
     color: black;
     background-color: #A2DCF5;
     border-radius: 25px;
@@ -83,19 +79,17 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: auto;
     background-image: url("../images/cover.png");
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: left bottom;
 }
 
 .cover-enterGameDoor {
     display: flex;
     justify-content: center;
-    width: 400px;
     margin-top: 60px;
+    margin-bottom: 180px;
 }
 
 .team-cards {
@@ -130,39 +124,34 @@ body {
     margin: 0px 10px;
 }
 
-.about-img {
-    display: block;
-    width: 100%;
+.wrapper {
+    flex: 1;
+}
+
+.about-section {
+    padding: 60px 160px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    height: auto;
 }
 
 .about-top {
-    padding: 0px 160px;
-    display: flex;
+
     justify-content: right;
-    align-items: center;
     background-image: url(../images/about-1.png);
-    /* background-attachment: fixed; */
-    background-size: cover;
-    width: 100%;
-    height: 525px;
 
 }
 
 .about-bottom {
-    padding: 0px 160px;
-    display: flex;
     justify-content: left;
-    align-items: center;
     background-image: url(../images/about-2.png);
-    /* background-attachment: fixed; */
-    background-size: cover;
-    width: 100%;
-    height: 525px;
 }
 
 .about-des {
     width: 448px;
-    height: 368px;
+    height: auto;
     padding: 30px 40px;
     background: #FFF9E4;
     border-radius: 20px;
@@ -179,15 +168,40 @@ body {
     line-height: 150%;
 }
 
+@media (max-width: 768px) {
+
+    .about-bottom,
+    .about-top {
+        padding: 60px 60px;
+    }
+
+    .navbar-brand {
+
+        display: block;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .about-bottom,
+    .about-top {
+        padding: 60px 30px;
+        justify-content: center;
+    }
+
+    .about-des {
+        background: rgba(255, 249, 228, 0.7);
+    }
+}
 
 .footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    height: 187px;
     background-color: #394873;
-    padding: 50px 0 20px;
+    padding: 40px 0px 20px;
 
 }
 
@@ -207,4 +221,5 @@ body {
     justify-content: center;
     color: #A2DCF5;
     font-size: 12px;
+    margin-top: 10px;
 }
