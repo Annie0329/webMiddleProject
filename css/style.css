@@ -56,10 +56,7 @@ body {
     color: white;
 }
 
-.cover-enterBox {
-    display: flex;
-    justify-content: center;
-}
+
 
 .nav-enterGame {
     width: 130px;
@@ -88,6 +85,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom;
+}
+
+.cover-enterBox {
+    display: flex;
+    justify-content: center;
 }
 
 .cover-enterGameDoor {
@@ -189,7 +191,7 @@ body {
 
 @media (max-width: 480px) {
     .cover-enterGameDoor {
-        width: 250px;
+        width: 280px;
     }
 
     .about-bottom,
