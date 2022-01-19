@@ -12,7 +12,4 @@ $(document).ready(function () {
             },
         ]
     });
-    $("lottie-player").click(function () {
-        player.play();
-    });
 });
