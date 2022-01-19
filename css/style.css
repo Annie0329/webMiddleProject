@@ -17,6 +17,13 @@ body {
     background-color: #FFF9E4;
 }
 
+.bodymovinanim {
+    width: 90%;
+    max-width: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
 .background {
     background-color: #FFF9E4;
     display: flex;
