@@ -17,13 +17,6 @@ body {
     background-color: #FFF9E4;
 }
 
-.bodymovinanim {
-    width: 90%;
-    max-width: 50px;
-    margin-bottom: 30px;
-    cursor: pointer;
-}
-
 .background {
     background-color: #FFF9E4;
     display: flex;
@@ -63,6 +56,11 @@ body {
     color: white;
 }
 
+.cover-enterBox {
+    display: flex;
+    justify-content: center;
+}
+
 .nav-enterGame {
     width: 130px;
     height: 40px;
@@ -94,7 +92,7 @@ body {
 
 .cover-enterGameDoor {
     display: flex;
-    justify-content: center;
+    align-items: center;
     margin-top: 60px;
     margin-bottom: 180px;
 }
@@ -190,6 +188,9 @@ body {
 }
 
 @media (max-width: 480px) {
+    .cover-enterGameDoor {
+        width: 250px;
+    }
 
     .about-bottom,
     .about-top {
